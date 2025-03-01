@@ -1,6 +1,6 @@
 ### Hotel-Management-System-Using-Microsoft-Access-Database
 
-This is a simple desktop application for managing a hotel, built with C# and the .NET Framework/.NET Core. The application allows adding and managing available rooms, recording reservations, and tracking their status.
+This is a simple desktop application for managing a hotel, built with C# and the .NET Framework/.NET Core.The application aims to efficiently manage reservations, accommodation, accommodation history, rooms and customers, automating administrative processes. It allows entering, modifying and deleting reservations, tracking room status and calculating prices based on the number of days and room type.
 
 ## Technologies Used
 
@@ -39,6 +39,8 @@ This is a simple desktop application for managing a hotel, built with C# and the
 - **Room Management**: Allows adding, editing, and deleting available rooms in the hotel.
 - **Reservations**: Allows users to make reservations for rooms and view current bookings.
 - **Data Storage**: Data is stored in a Microsoft Access database.
+- **Customer Management:**: Store customer information, such as name, contact details, and reservation history.
+- **Search & Filter Functionality**: Search for rooms based on criteria like room type, price, and availability.
 
 ## Screenshots
 
