@@ -42,13 +42,13 @@ This is a simple desktop application for managing a hotel, built with C# and the
 
 ## Screenshots
 
-Here are some screenshots of the application in action:
+Here are some screenshots of the application:
 
-1. ![Screenshot 1](Screenshots/image1.png)
-2. ![Screenshot 2](Screenshots/image2.png)
-3. ![Screenshot 3](Screenshots/image3.png)
-4. ![Screenshot 4](Screenshots/image4.png)
-5. ![Screenshot 5](screenshots/image5.png)
+![Screenshot 1](Screenshots/image1.png)
+![Screenshot 2](Screenshots/image2.png)
+![Screenshot 3](Screenshots/image3.png)
+![Screenshot 4](Screenshots/image4.png)
+![Screenshot 5](Screenshots/image5.png)
 
 ## License
 
