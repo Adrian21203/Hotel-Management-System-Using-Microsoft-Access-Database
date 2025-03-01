@@ -14,7 +14,7 @@ This is a simple desktop application for managing a hotel, built with C# and the
 1. **Clone the Repository**
    - To get started with the project, clone the repository using the following command:
      ```bash
-     git clone https://github.com/username/HotelApp.git
+     git clone https://github.com/Adrian21203/Hotel-Management-System-Using-Microsoft-Access-Database.git
      ```
 
 2. **Install Dependencies**
