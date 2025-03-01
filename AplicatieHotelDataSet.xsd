@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AplicatieHotelDataSet" targetNamespace="http://tempuri.org/AplicatieHotelDataSet.xsd" xmlns:mstns="http://tempuri.org/AplicatieHotelDataSet.xsd" xmlns="http://tempuri.org/AplicatieHotelDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="AplicatieHotelConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AplicatieHotelConnectionString1 (Settings)" PropertyReference="ApplicationSettings.ProiectHotel.Properties.Settings.GlobalReference.Default.AplicatieHotelConnectionString1" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CamereTableAdapter" GeneratorDataComponentClassName="CamereTableAdapter" Name="Camere" UserDataComponentName="CamereTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AplicatieHotelConnectionString1 (Settings)" DbObjectName="Camere" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT NrCamera FROM Camere</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NrCamera" DataSetColumn="NrCamera" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ClientiTableAdapter" GeneratorDataComponentClassName="ClientiTableAdapter" Name="Clienti" UserDataComponentName="ClientiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AplicatieHotelConnectionString1 (Settings)" DbObjectName="Clienti" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT NumeClient, NrTelefon FROM Clienti</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NumeClient" DataSetColumn="NumeClient" />
+              <Mapping SourceColumn="NrTelefon" DataSetColumn="NrTelefon" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RezervariContinutTableAdapter" GeneratorDataComponentClassName="RezervariContinutTableAdapter" Name="RezervariContinut" UserDataComponentName="RezervariContinutTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AplicatieHotelConnectionString1 (Settings)" DbObjectName="RezervariContinut" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DataCazarii, PretZi, NrZile FROM RezervariContinut</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DataCazarii" DataSetColumn="DataCazarii" />
+              <Mapping SourceColumn="PretZi" DataSetColumn="PretZi" />
+              <Mapping SourceColumn="NrZile" DataSetColumn="NrZile" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AplicatieHotelDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="AplicatieHotelDataSet" msprop:Generator_DataSetName="AplicatieHotelDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Camere" msprop:Generator_RowEvHandlerName="CamereRowChangeEventHandler" msprop:Generator_RowDeletedName="CamereRowDeleted" msprop:Generator_RowDeletingName="CamereRowDeleting" msprop:Generator_RowEvArgName="CamereRowChangeEvent" msprop:Generator_TablePropName="Camere" msprop:Generator_RowChangedName="CamereRowChanged" msprop:Generator_RowChangingName="CamereRowChanging" msprop:Generator_TableClassName="CamereDataTable" msprop:Generator_RowClassName="CamereRow" msprop:Generator_TableVarName="tableCamere" msprop:Generator_UserTableName="Camere">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NrCamera" msprop:Generator_ColumnPropNameInRow="NrCamera" msprop:Generator_ColumnPropNameInTable="NrCameraColumn" msprop:Generator_ColumnVarNameInTable="columnNrCamera" msprop:Generator_UserColumnName="NrCamera" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Clienti" msprop:Generator_RowEvHandlerName="ClientiRowChangeEventHandler" msprop:Generator_RowDeletedName="ClientiRowDeleted" msprop:Generator_RowDeletingName="ClientiRowDeleting" msprop:Generator_RowEvArgName="ClientiRowChangeEvent" msprop:Generator_TablePropName="Clienti" msprop:Generator_RowChangedName="ClientiRowChanged" msprop:Generator_RowChangingName="ClientiRowChanging" msprop:Generator_TableClassName="ClientiDataTable" msprop:Generator_RowClassName="ClientiRow" msprop:Generator_TableVarName="tableClienti" msprop:Generator_UserTableName="Clienti">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumeClient" msprop:Generator_ColumnPropNameInRow="NumeClient" msprop:Generator_ColumnPropNameInTable="NumeClientColumn" msprop:Generator_ColumnVarNameInTable="columnNumeClient" msprop:Generator_UserColumnName="NumeClient" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NrTelefon" msprop:Generator_ColumnPropNameInRow="NrTelefon" msprop:Generator_ColumnPropNameInTable="NrTelefonColumn" msprop:Generator_ColumnVarNameInTable="columnNrTelefon" msprop:Generator_UserColumnName="NrTelefon" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RezervariContinut" msprop:Generator_RowEvHandlerName="RezervariContinutRowChangeEventHandler" msprop:Generator_RowDeletedName="RezervariContinutRowDeleted" msprop:Generator_RowDeletingName="RezervariContinutRowDeleting" msprop:Generator_RowEvArgName="RezervariContinutRowChangeEvent" msprop:Generator_TablePropName="RezervariContinut" msprop:Generator_RowChangedName="RezervariContinutRowChanged" msprop:Generator_RowChangingName="RezervariContinutRowChanging" msprop:Generator_TableClassName="RezervariContinutDataTable" msprop:Generator_RowClassName="RezervariContinutRow" msprop:Generator_TableVarName="tableRezervariContinut" msprop:Generator_UserTableName="RezervariContinut">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DataCazarii" msprop:Generator_ColumnPropNameInRow="DataCazarii" msprop:Generator_ColumnPropNameInTable="DataCazariiColumn" msprop:Generator_ColumnVarNameInTable="columnDataCazarii" msprop:Generator_UserColumnName="DataCazarii" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PretZi" msprop:Generator_ColumnPropNameInRow="PretZi" msprop:Generator_ColumnPropNameInTable="PretZiColumn" msprop:Generator_ColumnVarNameInTable="columnPretZi" msprop:Generator_UserColumnName="PretZi" type="xs:int" minOccurs="0" />
+              <xs:element name="NrZile" msprop:Generator_ColumnPropNameInRow="NrZile" msprop:Generator_ColumnPropNameInTable="NrZileColumn" msprop:Generator_ColumnVarNameInTable="columnNrZile" msprop:Generator_UserColumnName="NrZile" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
