@@ -44,11 +44,11 @@ This is a simple desktop application for managing a hotel, built with C# and the
 
 Here are some screenshots of the application in action:
 
-1. ![Screenshot 1](screenshots/image1.png)
-2. ![Screenshot 2](screenshots/image2.png)
-3. ![Screenshot 3](screenshots/image3.png)
-4. ![Screenshot 4](screenshots/image4.png)
-5. 4. ![Screenshot 5](screenshots/image5.png)
+1. ![Screenshot 1](Screenshots/image1.png)
+2. ![Screenshot 2](Screenshots/image2.png)
+3. ![Screenshot 3](Screenshots/image3.png)
+4. ![Screenshot 4](Screenshots/image4.png)
+5. ![Screenshot 5](screenshots/image5.png)
 
 ## License
 
